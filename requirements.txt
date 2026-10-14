@@ -1,0 +1,11 @@
+torch
+transformers
+sentencepiece
+protobuf
+spacy
+nltk
+ipykernel
+ipywidgets
+# only for .build/verify.py
+nbclient
+nbformat

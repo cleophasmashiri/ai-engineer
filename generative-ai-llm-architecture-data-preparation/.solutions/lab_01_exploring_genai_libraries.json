@@ -1,0 +1,45 @@
+{
+ "title": "Lab 1 \u2014 Exploring Generative AI Libraries",
+ "exercises": {
+  "ex1": {
+   "title": "Describe a model",
+   "points": 10,
+   "solution": "eNpdj8EKwyAMhu97itCTQunoZYfCnkWspkXQWLQdbGPvvtR2tCwHJf///cZYHMBiNsn1qEK06EU5ZXcBLoI75CWIqaElsCdhiAkmcAQFayaddMAZUxZSlogZRg5trok0uLHICeclEbxLs1ZFqoRz1QHVh7yJKjjvXaTVTXEhKwiu0OKthlaeaCTDk5KyWG6meX7jsvozTpFHNLpX2b1wpw/hRHn95KWYECvC26tNqeHX7y/v+v6pzxfmGGcl"
+  },
+  "ex2": {
+   "title": "Encode and decode",
+   "points": 10,
+   "solution": "eNpLSU1TSM1Lzk9J1ShJrSjRtOJSAIKi1JLSojyFkvzs1LzMqtQiiFy0UmZeQWlJfGZKsVIsF1cKUGtKKlgrUASHTj2ECh2F4uzMgvjigtTkzMSceLCSYtuQotJUTQAefy8B"
+  },
+  "ex3": {
+   "title": "Greedy decoding by hand",
+   "points": 20,
+   "solution": "eNpdksFuwyAMhu97CtQTSBlqd5yUt9gtihBLHIraADLO0u3p5yRNlswXwPZn/wZa6IRDgPbbOAiAlkAmjH2iQvT2YQKMhuINQi7fzur9RbD5kAYyvs2iFHPM/wBuFAINGAwxEjGXp0QnpTdkLtBCM6PYXPWSJ6uqjy3cdRND553mDD6iyWSRFgFM17Wa+dHT9YmHaBzaVj6lTdZFFIZFCrTBgTxOscub7B6dp2mOubvcZJbbrhCrlr8ge5Re0EO1AI8pgcstwepciNdLrS06ViGV/vIwykshLurA7e+jsSQrdhRrtZoV+L78h/hujWtP0Eslyt1jaIh5u7XjxJN9Itjb7F0eawcuw0peqjN3zjefTE7QeHtf/8EHDqB+AflMt0E="
+  },
+  "ex4": {
+   "title": "A reply function",
+   "points": 10,
+   "solution": "eNpljkEKwjAQRfeeIrhKQilduBJ6C3ciIbRjCW2TYWZC1dMbWlTU2X2Y9/7v4aoIcLprpDSjVGr2NxdhcZJGiNwemkpZO0B04+JpYHPcqXIhYhZWrVrfwgPoLSCQTNFJoRNxu0fZm5VJWQowpx6mugiBvIC2dlP9FX/HnxGrbyv6LKh76Ipcl55zc6kUjwEdI3TBTy/riTKYmoUCavMEIuRZyA=="
+  },
+  "ex5": {
+   "title": "Compare decoding strategies",
+   "points": 15,
+   "solution": "eNptTzsKwzAM3XsKkS4JmJChSwO+RXfjxsoH4g+yPYTSu1dOMoVqsPU+6EkGRxi8DZpQGRy8WdxUB2ImCYiIRnZNfwOuiRhtIIEwrNvpaXbpjdpeBAEuW1WEKB+HK3ka5tZql/Wqyui6PA38rfseDrRMc+L5oyeENCOQdsZbiAnDPjRqG1Y2XtONV4ckX5RRQEIbkHTKhLJrn0z4oEJpj+UIWXLwqY4zq/68V0BVjmBcPkZnIBNn9/0BYJ5nbQ=="
+  },
+  "ex6": {
+   "title": "Format the chat prompt",
+   "points": 15,
+   "solution": "eNpVjssKwjAURPd+xZBVi1EEd4W68B+6qqW0mGi0SUoeoEj/3TQGq3c3cM7cOTMOro3sXDsaLUeXXYV12jwpvGWmlfZCIbtH67xRttznxQrh7mx0KJHYevMligaCLwIO2IENlqFuojgIxWwwUwyv4Sl6CBU7P+0LuA4kJ1VYUuDlJ0LByVG7EPqJ/Db+g2n5zEc8oYbNo0BOimxvWqgsuvkbVWpRvg=="
+  },
+  "ex7": {
+   "title": "Fit the history into a token budget",
+   "points": 15,
+   "solution": "eNplj7EOgzAMRPd+hUcisXRFzV90q6oIgVMikhg5RqV/XxIordRbLOeezpceLVgnRsh0FAUXqQaXhPhVw5yQTUiPGkK7rMSIManmBKtGnAQ0+BX98KoYz8F5hCvPuIFZE1MouCUOrZhtr3LG35GZY9IeY3GVOjKchfyKsaMeqy1BKbjon25ADJGklPtez2LMwXuRw9k/kcft3Nzf4opV9A=="
+  },
+  "ex8": {
+   "title": "The ChatBot class",
+   "points": 20,
+   "solution": "eNptkUGOwjAMRfecwssEdRAzIzZIsIBjIBRFxS1VSxLFRsDtJ6ElDWW8c+T//P1TdpoI9mfNO8vrGYQ6YQVKNaZhpQRhVxVw0XfFV29o8zs0tsXQrb5/CpjPazSqvWlfk+wRsaJykYRF1j+1w8MohQ1k0/ngOPMOPzfE1j+C8HCcJeua2pdrJNI1Zp48lmg4CHL94evd6voITTWxD1tYAnaEcdWL5ry9uEirQlRsVWkN451FvyXt/zhdJoI2dEMfCB5d9xA9MCY6yUb+e/hCO4fmJERa1POkzA6O9of3MSOPhPxMafpheaZ/RlWuaw=="
+  }
+ }
+}

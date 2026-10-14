@@ -1,0 +1,55 @@
+{
+ "title": "Lab 3 \u2014 Creating an NLP Data Loader",
+ "exercises": {
+  "ex1": {
+   "title": "A custom Dataset",
+   "points": 10,
+   "solution": "eNpljkEKgzAQRfeeYpYRigcQuhMvUUoI+q0D6SwyI/T4jRDU4N/M4r//mCkGVRoTZFqHYEFhrty2byhnxkLes7B57xRxeZBCLA+gBdmzN91R0JMiq7mTbC6yCCmuiyDBtiSUO1e7qukHxobv8QrPv7uj3r8y8/4D3yxKOg=="
+  },
+  "ex2": {
+   "title": "French tokenizer",
+   "points": 5,
+   "solution": "eNpLSU1TKMnPTs3LrEqNTyvSKE7NK0nNS07VtOJSAIKi1JLSojyFaKASvZLUihKFtPwikHqFzDyFvJwCFB2xABQFGyY="
+  },
+  "ex3": {
+   "title": "Build the vocabulary",
+   "points": 15,
+   "solution": "eNpNjk9LAzEQxe9+ijkmGAteCxGkeBB6EHosZcluZmHobmIzs4pIv3vzx1XnkuHlze89jyP0C02++4iD65XEM4ZuIhY2wO84kJvYHt5edq/P+4OBmUI3JrzYR729gzxDXIIwWNiVBVMhwBgT5JeBAvwjrvqPzLoSPmPyBXCU9m9gKIYG3pDgzEoDjVl+sr8FwAUPAiFKMa9NT3/EDcck6oxfdnJz7x3IFtRDox7lZEB0yyeJJb40VCtHw32jVAdLpOz4zgSqHSlfl1gMy4zJCaoC0dfqTihLCvXIVPgNmvp2AA=="
+  },
+  "ex4": {
+   "title": "Numericalize",
+   "points": 10,
+   "solution": "eNpdjUEOgkAMRfeeomEFYcIBjHgKd4QQZApOwKnpdBZ6esuMMcbu+v7vq8UZfLwju2nc3AtLoRV9MBCEnIHR2uFKYUAK7YUjVscD6ES/QpsqXXHS5Vz0iTsblHd70CwopZi9WsFMDALOQ7Z/yvOvPov/JGrXWO091InXX46ZpytGibzLebo1og+IS20bsPJ8YJv5Rn6p3j3bTP4="
+  },
+  "ex5": {
+   "title": "Pad a batch",
+   "points": 10,
+   "solution": "eNo1jkEKwkAMRfeeIssWigcQZiF0486FC0FkqE3aDpSMJhnR2zud1ux++Lz/kAZ4dugfnfVTpfTSpuSAH3c+tv7UXuvDDvLNxKNNCg4sSj/tjVijVLf8r7SGIQooBIaFcW8A7fskt1bnyGNdIBmNhJmxbORmIu5pmy0Kfgii5i6SqIhg4NG/uzmR27RWkJAl4Y3X/OV+OVBGyg=="
+  },
+  "ex6": {
+   "title": "The collate function",
+   "points": 10,
+   "solution": "eNodjDEKwzAQBHu/YksJ/IKAi4CbdCkNIQhFPhER5ZTcnRu/Po62GgZmV8pIrdZoFDK7R7T09KcBx5S+igk33t4kJcVadnLWXsQHhCxO/Qi1VjxyEygKo/f3ngvZJoxPXEO37v834nqew2Ve/A/S/Cic"
+  },
+  "ex7": {
+   "title": "Padding statistics",
+   "points": 10,
+   "solution": "eNo9jT0LwyAQhvf+iiOTkpBmDjgUsnTL2E0EL0UwWvQChdL/3osmdTnv/XjO4gIvY60LT53JUBY+Goup21Xt7FvNt0nfp4ccL8CPVVBAkYznORRtiakw0HagwQWoiFo4S61ih4SoQVDqPCD7vK1Cyn+6wlt1MPuwrehF9RPSlgJ8GvaacU900JQCb2Xyngy5WF24Hji3HB/0GWHoh+8PD8pLcQ=="
+  },
+  "ex8": {
+   "title": "Sorted DataLoader (batch size 4)",
+   "points": 15,
+   "solution": "eNpVjrEOgzAMRPd+hcdGytgJKVvF1LE7MnARiJBIsRnar28ACcpN57P8fD08zTyhCYl75LsgKmIHsdSydkMj4xfuYUlSVvfOC0x1o6LRb9E+rDouyW0b9P+wCR8XeG57JqkoIN41TYgF3vjy1RizgTJ0yZGerPzaC9W5EIY1EOhJNJd+p7VHn6tkWLwPcDUHgaUuhcBafkd3WvMDYwFYjQ=="
+  },
+  "ex9": {
+   "title": "A bucketing batch sampler",
+   "points": 20,
+   "solution": "eNplUruOwyAQ7PMVWxol5yRtJDdp7gPuOitCnL3Y6DBEgIvc1x9gbOOYannMzM4sjWTWwn1sftHdmWv6LzY8JZrbAfxqkQOlQglHaWFR8hNIVJ3r7Ql+wmtqxR+ewPYj5xKrbzOGHWJbXchEEVZAlgsw7lY0VCCFdUW6JznzliGpJIagkkp86qb3PNmDcHc5rCYiJ9poIutMmxZNQGrjsC0MUx2GToq8ZeJ7+sVXlZ+VlHbohMOBUrLQGXSjUVBH2lrcBBzf7T6AawMChIJJ7RIzLSKE7NIhj0M+CYcmTSIzkbwFGwG8eF37EnyT4AoNq/NAp03Tl5+o0DBfF6QcmBqZpCHJYsl7thMDJxuWtYk6lbXIvE4C3nH7RDPEiNMz77mbdauOlE7H7+CNz9QvgbIFbvQwq2z/xTT+YwXXPCsvsY8qDWg/4v2g4AOuBM7n9/N/ySQCvg=="
+  },
+  "ex10": {
+   "title": "Collate source/target pairs",
+   "points": 15,
+   "solution": "eNp1jkEOwiAQRfeeYtIVJJzAqBdpGoIwtESEZqAbT++I0VaTzmoyf/7736EHm2M0FfVsAhVxNdVOCgpZXWoOCupY2yaPB+BhAc7Qp+WOFKyJ4YGi5hsmXrQn4Umubgk+E3hSoCEkaOyhYZi6j8EkMMlNdMNoBZj+MK+g2TiH7h0aMY11Kozmq26Pgu9ro747sXLpBvmp8fXrHxcra4E/F2FdKO2Fqw31CUezeBw="
+  }
+ }
+}

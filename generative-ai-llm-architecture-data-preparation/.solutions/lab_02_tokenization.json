@@ -1,0 +1,55 @@
+{
+ "title": "Lab 2 \u2014 Implementing Tokenization",
+ "exercises": {
+  "ex1": {
+   "title": "Regex word tokenizer",
+   "points": 10,
+   "solution": "eNpLSU1TKM8vSokvyc9OzcusSo0vzswtyEnVKEmtKNG04lIAgqLUktKiPCCll5aZl5KYk6NRpBRTrl0THRdTHlMcq6SjAFYMAA6GGoA="
+  },
+  "ex2": {
+   "title": "Character tokenizer",
+   "points": 10,
+   "solution": "eNpNizsKgDAQBXtP8UoF8QCCrZcQCWF9waAkIVlBPL2fyilnmIUOstpsNG4M/mKtPLXFRiZTkhWWYbR7YdNXeMjUIwdMAhczBD7gHeDdf8HTQlRI58tn6ma+AdygJRY="
+  },
+  "ex3": {
+   "title": "Vocabulary size and OOV rate",
+   "points": 10,
+   "solution": "eNp1j00KwjAQhfc9xVs2ULRuBc8Sop1I0M5AMu35baYW4sK3m/fzwUwUscoj3H3gyYusveaQ2Ku8iMsApaLfw107bLI2biikP11naYpg0Xa2r6oy6ZIZb+LeIG7AeBotnlMpiZ8Vu8z9BVEyFIlbUGWr0Td/B3R/sAfubG77wwfM4E+h"
+  },
+  "ex4": {
+   "title": "BPE: count pairs and merge",
+   "points": 20,
+   "solution": "eNqdkcFOwzAQRO/5ijnaaloRjoWcuPMDUVQ5yqZYJLZxHFWA+HfWTpq2IHEgB0s7eeNdz7bUYbBjOHSe3iYy4eCU9uJkfZukUe4z8BfVESWe7GQCeSGT2lmPiOaILLTBxbjTgYZRLP4zrXI0kfvQTszOeFbFvr4C14aViLyssSlTh0ToDsaGGbh4PIXJGzxbQ9lVPWgjEpnjld7LXg1Nq+D2ENu5g6tzOCmzrI1JkD/SnEA8cvzKIc1fpuaptlPg8vPrH3EYOuXQ7K54hLtVPr3onlh/RE8mZfQjGX7/zV9sUUCZdk5S1yhLqCsBGxRJbG7vWWbYKefItEIx18gHvpvDvr8hqR/pT+/S+ewuVpbjqcLkehJM8x7LqOyOFMRF5cdL7r3ud9kcg98bKb3G"
+  },
+  "ex5": {
+   "title": "Train a BPE tokenizer",
+   "points": 20,
+   "solution": "eNplj1EKwjAQRP89xX6mUDyA4BW8gMiS2k0J0k3cJPT6ZhNtP5yPQIY3M+xMDrJYzzhFMluQOY3AZcWVZKE0XE5QtTm4wjNILAlzQMXQCb1TTwwN6okK3h/t74IAgmcQywuZv1JVtF5qYg0pt8JCnFFNs7lhp7zroE9wC0xHXDUJ2dfu9IWzjZF4Npo6atoVDegT+ozwGxLKRfhboPYHl6FWaQ=="
+  },
+  "ex6": {
+   "title": "Reassemble words from subword pieces",
+   "points": 15,
+   "solution": "eNqlkEFuwkAMRfecwgybjNoi0WWkLLkCmyhCQ+LACPBEtqMsEAsu0QNykgJDgVSqWhVvRqP//P3tCmvYIi9xLu2iC1xJomGNJK8g5Qq3aNMBnOoiQQZ5cfn6+ipDloE5i43HEk2Ez1UHBgVPEO3uwrVdx6KOVTqvq8SMRsaCoyrO6cO38fnbpICXDDR/T4seghvBH5rGrmmQqkTtIJL96IKkSCU+F//4cTD2twD5JC3st9gnpz9t/O9tH0l2XhBmbtPilDlwUpuW1hQ6+rrILr5D3ptowKgtU/T+BKQzlcQ="
+  },
+  "ex7": {
+   "title": "One interface for four tokenizers",
+   "points": 15,
+   "solution": "eNptjEEKgzAURPc9xeBKoXiAXEWKxOYLkvgjP7/UWnr3Ji5qF85mGObNOBoxW0+9Rk88bSSpbswFWUL6EMZ7D0UVB/WVwTOK+/HXo06Lvb9yH+w8OItk0GmrtCrGKFBMDA5LT1yn5va3G0g0z4qV2/bkeg1Mhdn9BPp8Ad3sPJY="
+  },
+  "ex8": {
+   "title": "Token frequencies",
+   "points": 10,
+   "solution": "eNptkM0KwkAMhO8+RfC0C7XotdCT4NEXqEXWNsXSmq3ZtOLbuz+KIOa0zOSbLNNiB2IHpHPHeJ+Rmh6diorLvDOdqTxawgxG+0BujMPyYEbnhZa9O83USFJ0sQI/ffddTUqYlAglVJJHW2noLINAT2+z/uDf4L/8LxcQxtyh4eaqeH16rP3P9TtO8BYwZ1mwVXs7k/jjidR5tJXOYMBnOZrbpTUwLAWozbBUu9rrS7WttY5ZjDIzpciqiN3U4Xh8Qe+ArEAoC9DXkfZekoFz7Q=="
+  },
+  "ex9": {
+   "title": "Time a tokenizer",
+   "points": 10,
+   "solution": "eNpVjsEKwjAQRO9+xR4TiPXkRei3hGAmUqybsllR+vUmbRSc4yzvzUYk0ukBr/kOnlaISexI8VZHggVBy3i2lwPVFA2iNFIMigYNnF/GbqeUhTxNTBL4BtPJzrVs/lLhxKbZdwxzWApirc2/lI77mh00a5h9wTVzLH1NoE/h7nQ/y+n78QfadUT1"
+  },
+  "ex10": {
+   "title": "Compare the tokenizers",
+   "points": 15,
+   "solution": "eNplUMtqwzAQvPcrlpxsEL3lEvBf9BaCEdIYROOVupJIaOm/V5KdOLh7MPbsPNZjMZHxc9CCMflPsPuGxC7hnhRtQH0PIw9HRYIAneJw7E9vVEb8LdJA50v7mrwQ6xnkmKKXBNttLquiTgOLbYSp6uTml/wXybmaXUp8O2jN7p82NfxdhwC23c8TrXOowsOpHaN2myUplu0VvITF/h8ps/vKWEkR6UHcM0szhdSW4yQoGjYOsXv84tJceyq6+hvE6IjhQzIUWSl4yGxSA/bepR7Ptl5ai9qWv0sFgpSFWwt/GAuLwg=="
+  }
+ }
+}
